@@ -1,11 +1,22 @@
 <footer>
     <div class="container">
         <div class="row block animatable fadeInUp">
-            <div class="col-md-5">
+            <div class="col-md-4">
             <a href="<?php echo $siteurl ?>" class="f-logo">
-                    <img src="<?php echo $siteurl ?>assets/images/foot-logo.png" alt="LOGO">
+                    <img src="<?php echo $siteurl ?>assets/images/flogo.png" alt="LOGO">
             </a>
-            <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+            <p class="para">We are a team of creative thinkers and
+                problem solvers dedicated to expanding the limits of what is possible by helping brands achieve their goals.</p>
+            <h3 class="foor-h">Connect with us</h3>
+             
+                <span class="footer-icons">
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-linkedin-in"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-instagram"></i>
+                </span>
+                
         </div>
         <div class="col-md-2">
             <h3>Quick Links</h3>
@@ -18,24 +29,57 @@
                     </ul>  
             </nav>
         </div>
-        <div class="col-md-5 contact-us">
+        <div class="col-md-3">
+            <h3>Our Services</h3>
+            <nav>
+                    <ul class="menu">            
+                        <li><a href="<?php echo $siteurl ?>"> Logo Design</a></li>
+                        <li><a href="<?php echo $siteurl ?>" >Website Development</a></li>
+                        <li><a href="<?php echo $siteurl ?>">Ecommerce Web Solutions</a></li>
+                        <li><a href="<?php echo $siteurl ?>">Motion Graphics</a></li> 
+                        <li><a href="<?php echo $siteurl ?>" >App Design</a></li>
+                        <li><a href="<?php echo $siteurl ?>">Creative Copywriting</a></li>
+                        <li><a href="<?php echo $siteurl ?>">Illustration Design</a></li>
+                        <li><a href="<?php echo $siteurl ?>">Marketing Collateral</a></li>  
+                        <li><a href="<?php echo $siteurl ?>">SEO Services</a></li>                        
+                    </ul>  
+            </nav>
+        </div>
+        <div class="col-md-3 contact-us">
             <h3>Contact Us</h3>
-            <p>Receive a letter, call or message from us? <br>
-                Reach back out to us at:</p>
+            <ul class="menu"> 
+                        <li>
+                            <a href="tel:+1-855-252-1232"> 
+                            <i class="f-icons fas fa-phone"></i> 
+                            +1-855-252-1232</a>
+                        </li>
+                        <li>
+                            <a href="mailto:support@logostark.com" >
+                            <img class="f-icons" src="<?php echo $siteurl?>assets/images/support.png" alt="">    
+                            support@logostark.com
+                            </a>
+                        </li>
+                        <li>
+                            <a href="<?php echo $siteurl ?>">
+                            <img class="f-icons" src="<?php echo $siteurl?>assets/images/world.png" alt="">
+                            50 Fremont St, San Francisco,
+                            CA 94105, USA  
+                            </a>
+                        </li>
+            </ul>
         </div>
     </div>
 </footer>
-<section class="redline">
-    </section>
+<section class="redline"></section>
 <div class="copyright">
         <a href="#goto-here" class="goto-up"><i class="fal fa-chevron-up"></i></a>
         <div class="container">
             <div class="row">
-                <div class="col-md-6 text-left">
-                    <p>Copyright © Shahbaz Khan 2021. All rights reserved.</p>
+                <div class="col-md-6  ">
+                    <p>Copyright &copy; Logo Stark 2021 All rights reserved 2021.  </p>
                 </div>
                 <div class="col-md-6 text-right">
-                    <p><a href="javascript:">Privacy Policy - Terms & Conditions</a> - <a href="javascript:">Terms &amp; Conditions</a></p>
+                    <p><a href="javascript:">Privacy Policy</a> | <a href="javascript:">Terms &amp; Conditions</a></p>
                     <!-- <i class="fab fa-twitter"></i>
                     <i class="fab fa-facebook-f"></i>
                     <i class="fab fa-skype"></i>

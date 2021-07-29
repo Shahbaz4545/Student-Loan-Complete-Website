@@ -177,59 +177,86 @@ jQuery(function($) {
     // }
 
     
-    // //owlcarousel
-        // $('.banner-test').owlCarousel({
-        //     loop:false,
-        //     nav:true,
-        //     dots:false,
-        //     margin:10,
-        //     responsiveClass:true,
-        //     autoplay:true,
-        //     autoplayTimeout:8000,
-        //     autoplaySpeed: 800,
-        //     responsive:{
-        //         0:{
-        //             items:1,
-        //         },
-        //         600:{
-        //             items:1,
-        //         },
-        //         1000:{
-        //             items:1,
-        //         },
-        //         360:{
-        //             items:1
-        //         }
-        //     }
-        // });
-    //     $('.banner-test').owlCarousel({
-    //         loop:true,
-    //         dots:true,
-    //         nav: false,
-    //         margin:0,
-    //         responsiveClass:true,
-    //         autoplay:true,
-    //         autoplayTimeout:8000,
-    //         autoplaySpeed: 800,
-    //         // lazyLoad: true,
-    //         // navText : ["<i class='fas fa-arrow-circle-left'></i>","<i class='fas fa-arrow-circle-right'></i>"],
-    //         responsive:{
-    //             0:{
-    //                 items:1,
-    //             },
-    //             600:{
-    //                 items:1,
-    //             },
-    //             1000:{
-    //                 items:1,
-    //             },
-    //             360:{
-    //                 items:1
-    //             }
-    //         }
-    //     });
+    //owlcarousel
+        $('.logo-bar').owlCarousel({
+            loop:true,
+            nav:false,
+            dots:false,
+            margin:15,
+            responsiveClass:true,
+            autoplay:true,
+            autoplayTimeout:8000,
+            autoplaySpeed: 800,
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:3,
+                },
+                1000:{
+                    items:6,
+                },
+                360:{
+                    items:3
+                }
+            }
+        });
+        $('.monial-slider').owlCarousel({
+            loop:true,
+            dots:false,
+            margin:10,
+            responsiveClass:true,
+            autoplay:true,
+            autoplayTimeout:8000,
+            autoplaySpeed: 800,
+            nav: true,
+            lazyLoad: true,
+            // navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+            navText : ["<i class='fal fa-long-arrow-left'></i>","<i class='fal fa-long-arrow-right'></i>"],
+            responsive:{
+                0:{
+                    items:1,
+                },
+                600:{
+                    items:1,
+                },
+                1000:{
+                    items:1,
+                },
+                360:{
+                    items:1
+                }
+            }
+        });
     });
-    
+    $('.monial-slider').owlCarousel({
+        loop:false,
+        dots:false,
+        margin:10,
+        responsiveClass:true,
+        autoplay:true,
+        autoplayTimeout:8000,
+        autoplaySpeed: 800,
+        nav: true,
+        lazyLoad: true,
+        // navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+        navText : ["<i class='fal fa-long-arrow-left'></i>","<i class='fal fa-long-arrow-right'></i>"],
+        responsive:{
+            0:{
+                items:1,
+            },
+            600:{
+                items:1,
+            },
+            1000:{
+                items:1,
+            },
+            360:{
+                items:1
+            }
+        }
+    });
     // $(window).on("load",function(){
     //     $(".content").mCustomScrollbar({
     //         autoHideScrollbar:true,
